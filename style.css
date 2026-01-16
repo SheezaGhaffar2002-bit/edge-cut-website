@@ -1,20 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-*{
+* {
     margin: 0px;
     box-sizing: 0px;
 }
-.hero-sec{
+
+.hero-sec {
     background-image: url(./images/WhatsApp\ Image\ 2026-01-10\ at\ 10.49.09\ AM.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: space-between;
-    
+
     padding-left: 40px;
     padding-right: 30px;
     padding-top: 20px;
@@ -22,27 +23,32 @@
 }
 
 
-.mid-links{
+.mid-links {
     justify-content: space-between;
     display: flex;
     gap: 20px;
 }
-.feane{
+
+.feane {
     color: white;
     text-decoration: none;
     font-family: "Dancing Script", cursive;
     font-size: 40px;
 }
-.first-link{
+
+.first-link {
     text-decoration: none;
     color: white;
 }
-.icons{
+
+.icons1 {
     display: flex;
     gap: 20px;
     color: white;
+    font-size: 20px;
 }
-.btn{
+
+.bt {
     background-color: goldenrod;
     color: white;
     border-radius: 20px;
@@ -50,39 +56,46 @@
     padding: 10px;
     border: none;
 }
-.text{
+
+.text {
     margin-left: 40px;
     margin-top: 110px;
 }
-.fast-head{
+
+.fast-head {
     box-sizing: border-box;
     color: white;
     font-size: 56px;
-    font-family:  "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive;
 }
-.para{
+
+.para {
     display: block;
     margin-top: 20px;
     color: white;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
 }
-.main-box{
+
+.main-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5px;
 }
-.box{
-    align-items:center;
+
+.box {
+    align-items: center;
     display: flex;
     width: 510px;
     height: 215px;
     margin-left: 40px;
     margin-top: 80px;
     border-radius: 5px;
-    background-color:rgb(34, 40, 49);
+    background-color: rgb(34, 40, 49);
 }
-.img-box{
+
+.img-box {
     height: 170px;
     width: 170px;
     margin-left: 20px;
@@ -90,91 +103,354 @@
     border-radius: 50%;
     border: 5px solid goldenrod;
 }
-.img1{
+
+.img1 {
     width: 170px;
     height: 170px;
     border-radius: 50%;
 }
-.img1:hover{
+
+.img1:hover {
     transform: scale(1.1);
     border: 5px solid goldenrod;
- ;
+
 }
-.detail-box{
+
+.detail-box {
     display: block;
     margin-left: 20px;
     margin-top: 20px;
     color: white;
 }
-h3{
-    box-sizing:border-box;
-color:rgb(255, 255, 255);
-display:block;
-font-family:"Dancing Script", cursive;
-font-size:25px;
-font-weight:700;
+
+h3 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: 700;
 
 }
-h6{
-    box-sizing:border-box;
-    color:rgb(255, 255, 255);
-    display:block;
-    font-family:"Dancing Script", cursive;
-    font-size:25px;
-    font-weight:700;
+
+.h6f {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: 700;
 }
-span{
-    box-sizing:border-box;
-    color:rgb(255, 255, 255);
-    font-family:"Dancing Script", cursive;
-    font-size:40px;
-    font-weight:700;
+
+span {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 700;
 }
-.btn2{
+
+.btn2 {
     margin-top: 20px;
     font-size: 15px;
 
 }
-.order-section{
+
+.order-section {
     margin-top: 80px;
-    margin-left: 40px;
+    /* margin-left: 20px; */
 }
-.order-h1{
+
+.order-h1 {
     font-size: 40px;
     font-family: "Dancing Script", cursive;
     text-align: center;
     color: goldenrod;
 }
-.second-link{
+
+.second-link {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    
+
 }
-.inner{
+
+.inner {
     display: flex;
     gap: 20px;
     justify-content: center;
     margin-top: 40px;
 }
-.order-div{
-    height: 463.5px;
-    width: 340px;
-    display: block;
-    margin-left: 40px;
+
+.order-div {
+    height: 490px;
+    width: 370px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: rgb(34, 40, 49);
+}
+
+.first-inner {
+    background-color: rgb(241, 242, 243);
+    height: 220px;
+    width: 370px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 45px;
+}
+
+.par {
+    font-size: 20px;
+}
+
+.inner-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.inner-img:hover {
+    transform: scale(1.1);
+}
+
+.second-inner {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+
+}
+
+h6 {
+    font-size: 20px;
+}
+
+.cart {
+    font-size: 30px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    /* padding: 10px; */
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.main-od {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     margin-top: 40px;
 }
-.first-inner{
-    height:231.75 ;
-    width: 340px;
-    background-color: rgb(255, 255, 255);
-    
-}.inner-img{
-    width: 140px;
-    height: 140px;
+
+.btn1 {
+    margin-top: 40px;
+    margin-left: 550px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
 }
-.second-inner{
-    height:231.75 ;
-    width: 340px;
+
+.feane-div {
+    margin-top: 80px;
     background-color: rgb(34, 40, 49);
+    height: 800px;
+
+
+}
+
+.feane1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feane-img {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 607.833px;
+
+}
+
+.feane-text {
+    margin-top: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.head {
+
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+}
+
+.feane-para {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}.contact-info {
+    display: flex;
+    justify-content: center;
+   
+    height: 500px;
+   
+    margin-top: 50px;
+  
+
+}
+
+.contact-heading {
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.input {
+    height: 40px;
+    width: 480px;
+    padding-left: 5%;
+color: black;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+#contact-text1 {
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5%;
+    width: 480px;
+    margin-left: 20px;
+}
+
+#contact-text {
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5%;
+    width: 510px;
+    margin-left: 20px;
+}
+.contact-map {
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+iframe{
+    border-radius: 20px;
+    height: 350px;
+}
+.ourblog{
+    margin-top: 60px;
+}
+.box1 {
+    
+    width: 510px;
+    height: 215px;
+    margin-left: 40px;
+    margin-top: 80px;
+    border-radius: 5px;
+    background-color: rgb(34, 40, 49);
+}
+.text1{
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.text2{
+    color: white;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.text3{
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.img-box-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 450px;
+}.img-box1 {
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+}
+
+.img2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+    border: 5px solid goldenrod;
+
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(34, 40, 49);
+    height: 400px;
+    margin-top: 60px;
+    
+}
+.first-footer-div{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 90px;
+    color: white;
+    text-align: center;
+    
+}
+.h2e{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+.p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer-icon{
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sec-footer-div{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    color: white;
+}
+.third-footer-div{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    color: white;
 }
