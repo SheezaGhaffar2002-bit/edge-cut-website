@@ -13,6 +13,9 @@
     color: black;
     background-color: white;
 }
+.logo{
+    padding-left: 25px;
+}
 
 .child2 {
     display: flex;
@@ -433,4 +436,8 @@ span {
 .last{
     display: flex;
     gap: 10px;
+}
+.end{
+    text-align: center;
+    margin-top: 20px;
 }
